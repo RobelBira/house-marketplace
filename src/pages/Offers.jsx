@@ -48,6 +48,7 @@ function Offers() {
            setListings(listings)
            setLoading(false)
         } catch (error) {
+            
             toast.error('could not fetch listings')
         }
     }
